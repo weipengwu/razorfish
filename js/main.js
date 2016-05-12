@@ -30,7 +30,7 @@ $(document).ready(function(){
 		    {
 		        value: parseFloat(stat.all - stat.photo - stat.video - stat.audio).toFixed(2),
 		        color: "#f4ede7",
-		        label: "photo",
+		        label: "others",
 		        highlight: "#f4ede7"
 		    }
 		];
