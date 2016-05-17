@@ -34,10 +34,11 @@
                     <!-- Data Chart Widget -->
                     <section id="chartwidget">
                         <ul class="widgettabs" role="tablist">
-                            <li role="presentation" class="active"><a href="#" role="tab">Diagram Stats</a></li>
-                            <li role="presentation" class="inactive"><a href="#" role="tab">Month Report</a></li>
+                            <li role="presentation" class="active"><a href="#diagram" id="diagram-tab" aria-controls="diagram" role="tab" data-toggle="tab">Diagram Stats</a></li>
+                            <li role="presentation"><a href="#report" id="report-tab" aria-controls="report" role="tab" data-toggle="tab">Month Report</a></li>
                         </ul>
-                        <div class="widgettab">
+                        <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane widgettab active" id="diagram">
                             <div class="chartbody">
                                 <h2>DATA TRANSFER</h2>
                                 <canvas id="dataChart"></canvas>
@@ -82,6 +83,10 @@
                                     </a>
                                 </div>
                             </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane widgettab" id="report">
+                            <h2>Monthly Report</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         </div>
                     </section>
                 </div>

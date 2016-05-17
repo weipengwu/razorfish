@@ -2,6 +2,11 @@ $(document).ready(function(){
 
 	$('body').addClass('load');
 
+	$('.widgettabs a').click(function (e) {
+	  e.preventDefault()
+	  $(this).tab('show')
+	})
+
 	//get data from json file and render the chart
 
 	var stat;

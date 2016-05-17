@@ -245,13 +245,23 @@ body.load #postwidget{
 .widgettabs li.active{
     background: #fff;
 }
-.widgettabs li.inactive{
+.widgettabs li.active a{
+    color: #8e8071;
+}
+.widgettabs li{
     background: transparent;
     border: 1px solid #fff;
     border-bottom: 0;
 }
-.widgettabs li.inactive a{
+.widgettabs li a{
     color: #fff;
+}
+#report{
+    padding: 20px;
+}
+#report h2{
+    margin: 0 0 20px 0;
+    font-size: 1.6rem;
 }
 #chartwidget{
     width: 100%;
